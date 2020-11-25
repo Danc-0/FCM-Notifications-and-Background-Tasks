@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FCM Notification, JobScheduling, WorkManager</string>
+    <string name="fcm_token">FCM Token: %s</string>
+</resources>

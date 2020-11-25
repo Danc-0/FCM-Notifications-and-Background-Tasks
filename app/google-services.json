@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "499582675894",
+    "firebase_url": "https://fcm-notification-sample-a8407.firebaseio.com",
+    "project_id": "fcm-notification-sample-a8407",
+    "storage_bucket": "fcm-notification-sample-a8407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499582675894:android:a65fc04dd3c18145272f17",
+        "android_client_info": {
+          "package_name": "com.danc.fcmnotificationjobschedulingworkmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499582675894-281ijui0g5eh85jiulqql9p5d3urnihp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4HxUjbqNM18LHAIIBrC29tsPpT-LwNSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499582675894-281ijui0g5eh85jiulqql9p5d3urnihp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499582675894:android:d3ac8edbaacf5295272f17",
+        "android_client_info": {
+          "package_name": "com.danc.fcmnotificationsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499582675894-281ijui0g5eh85jiulqql9p5d3urnihp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4HxUjbqNM18LHAIIBrC29tsPpT-LwNSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499582675894-281ijui0g5eh85jiulqql9p5d3urnihp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
