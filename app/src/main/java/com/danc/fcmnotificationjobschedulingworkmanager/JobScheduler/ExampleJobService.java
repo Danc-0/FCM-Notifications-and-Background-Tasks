@@ -26,7 +26,7 @@ public class ExampleJobService extends JobService {
                         return;
                     }
                     try {
-                        Thread.sleep(3000);
+                        Thread.sleep(1000);
                     } catch (InterruptedException e){
                         Log.d(TAG, "run: " + e.getMessage());
                     }

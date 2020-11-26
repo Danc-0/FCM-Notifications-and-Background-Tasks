@@ -4,7 +4,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
@@ -14,26 +13,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FCMNotificationJobSchedulingWorkManager">
-        <activity android:name=".JobScheduler.JobScheduleActivity">
+        <activity android:name=".WorkManager.PhotoUploadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FCMNotification.NotificationActivity">
+        <activity android:name=".JobScheduler.JobScheduleActivity">
 
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".FCMNotification.NotificationActivity"></activity>
+        <activity android:name=".MainActivity" />
 
         <service android:name=".FCMNotification.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
-        <service android:name=".JobScheduler.ExampleJobService"
-            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name=".JobScheduler.ExampleJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
     </application>
 
 </manifest>
